@@ -24,19 +24,19 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
+    "v h"
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
@@ -44,9 +44,18 @@ grid-area: a;
 footer{
     background-color: gray;
 }
-
+/*font styling area*/
 /* variable font animation */
+h2{
+    color: #38776A;
+    font-variation-settings: "opsz" 48, "wght" 900, "wdth" 100,"slnt" 0;
+}
+
+
+
 h3{
+    color:#D77A61;
+    
     font-weight:20; 
     text-align: center;
     font-size: 5em;
