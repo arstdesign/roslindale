@@ -40,10 +40,38 @@ grid-area: v;
 grid-area: a;
 }
 }
+
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: #38776A;
+    color: #65C6BC;
+    position: absolute;
+    width: 100%;
+    bottom: -600px;
 }
+
+.shadow {
+    background-color: #38776A;
+    position: center;
+    color: #65C6BC;
+    position: absolute;
+    left: 50%;
+    bottom: -550px;
+    border-radius: 50px;
+    padding: 15px 30px;
+    /*font-weight: bold;*/
+    /*text-transform: uppercase;*/
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.shadow:hover {
+    background-color: #E3C566;
+    color: #D77A61;
+    font-weight: bold;
+}
+
+
+
 /*font styling area*/
 /* variable font animation */
 h2{
@@ -54,12 +82,16 @@ h2{
 
 
 h3{
-    color:#D77A61;
+    color:#E3C566;
     
     font-weight:20; 
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
+}
+
+p{
+    color: #4d968e;
 }
 
 @keyframes weightChange {
