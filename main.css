@@ -57,10 +57,11 @@
 .page-wrapper{
 display: grid;
 grid-gap: 25px;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "v h"
+    "h ."
+    ". v"
     "a a";
 }
 
@@ -136,11 +137,13 @@ p{
 }
 
 footer{
+    text-align: center;
     background-color: #38776A;
     color: #65C6BC;
     position: absolute;
     width: 100%;
-    bottom: -1600px;
+    bottom: -1900px;
+    text-align: center;
 }
 
 /*@keyframes weightChange {

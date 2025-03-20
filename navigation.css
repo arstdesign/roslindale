@@ -49,8 +49,7 @@
   }
   
   nav a {
-    position: absolute;
-    bottom: -1000;
+  
       color: #65C6BC;
       text-decoration: none;
       font-size: 1.2rem;
@@ -58,8 +57,8 @@
       opacity: 0;
       transition: opacity 100ms ease-in-out;
       
-    
-  
+
+
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
