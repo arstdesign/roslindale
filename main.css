@@ -60,17 +60,19 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h ."
-    ". v"
-    "a a ";
+    ". h ."
+    ". v ."
+    "a a .";
 }
 
 #history {
 grid-area: h;
+text-align:center;
 }
 
 #variations{
 grid-area: v;
+text-align:center;
 }
 
 #alphabet {
@@ -90,7 +92,7 @@ text-align: center;
     left: 50%;
     
     
-    bottom: -1700px;
+    bottom: -2400px;
     border-radius: 50px;
     padding: 15px 30px;
     /*font-weight: bold;*/
@@ -110,12 +112,22 @@ text-align: center;
 /* variable font animation */
 h2{
     font-size: 86px;
-    color: #38776A;
+    /*color: #38776A;*/
     -webkit-text-stroke:1px #000000;
     font-variation-settings: "opsz" 48, "wght" 900, "wdth" 100,"slnt" 0;
 }
 
+.historyHead{
+    color:#65C6BC;
+}
 
+.variationHead{
+    color:#E3C566;
+}
+
+.characterHead{
+color:#D77A61;
+}
 
 h3{
     color:#E3C566;
@@ -124,6 +136,14 @@ h3{
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
+}
+
+h4{
+    color:#D77A61;
+    text-align: center;
+    font-size: 24px;
+    text-align: left;
+    font-variation-settings: "opsz" 48, "wght" 900, "wdth" 100,"slnt" -4;
 }
 
 p{
@@ -146,7 +166,7 @@ footer{
     color: #65C6BC;
     position: absolute;
     width: 100%;
-    bottom: -1900px;
+    bottom: -2550px;
     text-align: center;
 }
 
