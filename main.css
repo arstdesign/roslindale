@@ -119,14 +119,17 @@ h2{
 
 .historyHead{
     color:#65C6BC;
+    font-variation-settings: "opsz" 48, "wght" 400, "wdth" 100,"slnt" -6;
 }
 
 .variationHead{
     color:#E3C566;
+
 }
 
 .characterHead{
 color:#D77A61;
+font-variation-settings: "opsz" 0, "wght" 700, "wdth" 100,"slnt" 0;
 }
 
 h3{
