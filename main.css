@@ -74,7 +74,7 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h h h"
+    "p h h"
     "v v v"
     "a a a";
 }
@@ -92,8 +92,13 @@ text-align:center;
 #alphabet {
 grid-area: a;
 text-align: center;
+}}
+
+.hisroty image{
+    grid-area: p;
+    padding-left: 0;
 }
-}
+
 
 
 
