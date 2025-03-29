@@ -94,9 +94,10 @@ grid-area: a;
 text-align: center;
 }}
 
-.hisroty image{
+.historyImage{
     grid-area: p;
-    padding-left: 0;
+     
+
 }
 
 
