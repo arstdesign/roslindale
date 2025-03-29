@@ -126,6 +126,7 @@ text-align: center;
 
 .historyImage{
     top:2000px;
+    text-align: center;
 }
 
 /*font styling area*/
@@ -174,17 +175,20 @@ h4{
 p{
     color: #4d968e;
     font-size: 30px;
+    text-align: justified;
 }
 
 .lettersBlue{
     color:#65C6BC;
-    font-size: 35px;
+    font-size: 45px;
+    text-align:center;
     font-variation-settings: "opsz" 48, "wght" 600, "wdth" 100,"slnt" -4;
 }
 
 .lettersRed{
     color:#D77A61;
-    font-size: 35px;
+    font-size: 36px;
+    text-align: center;
     font-variation-settings: "opsz" 48, "wght" 900, "wdth" 100,"slnt" -4;
 }
 
